@@ -13,7 +13,7 @@
 #ifndef __SMARTTHINGSESP8266WIFI_H__
 #define __SMARTTHINGSESP8266WIFI_H__
 
-#include "SmartThingsEthernet.h"
+#include <SmartThingsEthernet.h>
 
 //*******************************************************************************
 // Using ESP8266 WiFi

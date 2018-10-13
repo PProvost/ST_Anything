@@ -13,6 +13,8 @@
 //  2018-02-03  Dan Ogorchock  Support for Hubitat
 //*******************************************************************************
 
+#ifdef ARDUINO_ARCH_ESP32
+
 #include "SmartThingsESP32WiFi.h"
 
 namespace st
@@ -403,3 +405,5 @@ namespace st
 		st_client.stop();
 	}
 }
+
+#endif

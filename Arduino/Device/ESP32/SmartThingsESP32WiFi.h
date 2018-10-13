@@ -14,7 +14,7 @@
 #ifndef __SMARTTHINGSESP32WIFI_H__
 #define __SMARTTHINGSESP32WIFI_H__
 
-#include "SmartThingsEthernet.h"
+#include "../Core/SmartThingsEthernet.h"
 
 //*******************************************************************************
 // Using ESP32 WiFi

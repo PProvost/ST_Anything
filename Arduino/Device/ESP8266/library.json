@@ -1,0 +1,14 @@
+{
+    "name": "ST_Anything - ESP8266",
+    "keywords": "st_anything, arduino, esp8266, smartthings, hubitat, hubduino",
+    "description": "TODO",
+    "include": "Arduino/Device/ESP8266",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/PProvost/ST_Anything.git"
+    },
+    "dependencies": [
+        { "name": "ST_Anything" }
+    ],
+    "frameworks": "arduino"
+  }
